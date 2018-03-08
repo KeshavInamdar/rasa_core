@@ -141,7 +141,7 @@ if __name__ == '__main__':
     # Running as standalone python application
     arg_parser = create_argument_parser()
     cmdline_args = arg_parser.parse_args()
-
+    print("my new new comment lines")
     utils.configure_colored_logging(cmdline_args.loglevel)
 
     main(cmdline_args.core,
